@@ -1,0 +1,30 @@
+print("Sveiki.")
+name = input("Kā tevi sauc?")
+print("Man patīk tavs vards,", name)
+anwser = input("Kā tu pavadi savu brīvo laiku?")
+
+if anwser == "Spēlēju datorspēles":
+  print("Forši, es arī!")
+elif anwser != "Spēlēju datorspēles":
+   input("Kādeļ tu nespēlē datorspēles?")
+anwser = input("Kāds žanrs tev patīk?")
+if anwser == "Šuteri":
+  anwser = input("Man arī patīk šis žanrs. Un kuras spēles tieši tev patīk?")
+  print("Laba izvēle")
+
+anwser = input("Vai tev ir vaļasprieks?")
+if anwser == "Ja":
+  input("Kāds?")
+anwser = ("Zīmēšana")
+if anwser == "Zīmēšana":
+  print("Forši!")
+print("Man arī patīk zīmēt.")
+
+anwser = input("Kā plāno pavadīt brīvdienas?")
+if anwser == "Gribu vienkārši atpūsties":
+  print("Labs variants!")
+  
+anwser = input("Мan jāiet, paldies, ka atradi laiku parunāties!")
+if anwser == "Tev arī":
+  print("Čau!")
+        
